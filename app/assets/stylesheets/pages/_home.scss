@@ -1,11 +1,11 @@
 // Specific CSS for your home-page
-.menu {
-  background: url('https://scontent.fhfa4-1.fna.fbcdn.net/v/t31.0-8/19467843_503482659987424_6896521262027472527_o.jpg?_nc_cat=0&oh=9e07b246dbbbfd0d0f5d5705dab8bec8&oe=5BDE4A63') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.menu-pic {
   height: 75vh;
+  background: url('https://scontent.fhfa4-1.fna.fbcdn.net/v/t31.0-8/19467843_503482659987424_6896521262027472527_o.jpg?_nc_cat=0&oh=9e07b246dbbbfd0d0f5d5705dab8bec8&oe=5BDE4A63');
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .wave {
@@ -55,17 +55,28 @@
 }
 
 
-.col-centered {
-  float: none;
-  margin: 40px -66px 0px 66px;
+.member {
+  margin: 150px -56px 0px 56px
 
 }
 
 // Phone Size
 
+@media screen and (max-width: 980px) {
+ .member, .firstmember, .secondmember, .thirdmember {
+  float: none;
+  margin: 0 auto !important;
+  margin-top: 70px !important;
+  text-align: center;
+}
+.staff {
+  height: 1500px !important;
+  background-color:white;
+}
+}
 
 @media screen and (max-width: 480px) {
- .col-centered, .firstmember, .secondmember, .thirdmember {
+ .member, .firstmember, .secondmember, .thirdmember {
   float: none;
   margin: 0 auto !important;
   margin-top: 10px !important;
@@ -76,16 +87,99 @@
   background-color:white;
 }
 .member {
-  border-bottom-width: 1px !important;
+  border-bottom-width: 1px solid #a5b8df !important;
 }
 }
 
 .staff {
   height: 700px;
-  background-color:white;
-  margin: auto; max-width: 300px;
+  background-color: white;
 }
 
 .member {
   border-bottom: 1px solid #a5b8df;
 }
+
+.member p {
+  color: #d90025;
+  opacity: 0.6;
+}
+
+.member h3 {
+  font-family: 'Lobster', cursive;
+}
+
+
+
+slider {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f1f;
+  overflow: hidden;
+
+}
+
+// Slide Show
+
+slider > * {
+  position: absolute;
+  display: block;
+   width: 100%;
+  height: 100%;
+  background: #1f1f1f;
+  animation: slide 12s infinite;
+
+}
+
+slide:nth-child(1) {
+  left: 0%;
+  animation-delay: -1s;
+  background-image: url('https://scontent.fhfa4-1.fna.fbcdn.net/v/t1.0-9/33342191_655776568091365_5295781228148948992_n.jpg?_nc_cat=0&oh=e3b2194286e1dfa43696aab90a2d59fc&oe=5BE23D81');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+slide:nth-child(2) {
+  animation-delay: 2s;
+  background-image: url('https://scontent.fhfa4-1.fna.fbcdn.net/v/t1.0-9/33300763_655776538091368_4059670957252411392_n.jpg?_nc_cat=0&oh=dc08853b4811e0c98d881efc22fa4364&oe=5BD28C2C');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+slide:nth-child(3) {
+  animation-delay: 5s;
+  background-image: url('https://scontent.fhfa4-1.fna.fbcdn.net/v/t1.0-9/33248040_655776301424725_2069652707383181312_n.jpg?_nc_cat=0&oh=f9debe707c582fe554a772bd5d6751bc&oe=5BEB24B4');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+slide:nth-child(4) {
+  left: 0%;
+  animation-delay: 8s;
+  background-image: url('https://scontent.fhfa4-1.fna.fbcdn.net/v/t1.0-9/33098176_655776241424731_2485656221697179648_n.jpg?_nc_cat=0&oh=d0993246736fe58a5c7ec244b285708e&oe=5BEB92F6');
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes slide {
+  0% { left: 100%; width: 100%;}
+  5% { left: 0%;}
+  25% { left: 0%;}
+  30% { left: -100%; width: 100%;}
+  30.001% { left: -100%; width: 0%}
+  100% { left: 100%; width: 0%;}
+
+}
+
+// Menu
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic);
+
+.menu h3 {
+  font-family: 'Crimson Text', serif;
+}
+
