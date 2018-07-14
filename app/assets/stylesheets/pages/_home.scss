@@ -1,1 +1,91 @@
 // Specific CSS for your home-page
+.menu {
+  background: url('https://scontent.fhfa4-1.fna.fbcdn.net/v/t31.0-8/19467843_503482659987424_6896521262027472527_o.jpg?_nc_cat=0&oh=9e07b246dbbbfd0d0f5d5705dab8bec8&oe=5BDE4A63') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 75vh;
+}
+
+.wave {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.menu-btn {
+  border-radius: 20px;
+}
+
+
+.firstmember {
+ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTLdH1utcgFaLSoFuaNY9pUs0TePYZTqhs91YDUmxG9bn0O-YmLA');
+ border-radius: 50%;
+ height: 250px;
+ width: 250px;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: 1px solid #a5b8df;
+  box-shadow: 1px 1px #ccc;
+}
+
+.secondmember {
+ background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTLdH1utcgFaLSoFuaNY9pUs0TePYZTqhs91YDUmxG9bn0O-YmLA');
+ border-radius: 50%;
+ height: 250px;
+ width: 250px;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: 1px solid #a5b8df;
+  box-shadow: 1px 1px #ccc;
+}
+
+.thirdmember {
+ background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTLdH1utcgFaLSoFuaNY9pUs0TePYZTqhs91YDUmxG9bn0O-YmLA');
+ border-radius: 50%;
+ height: 250px;
+ width: 250px;
+ border: 1px solid #a5b8df;
+ box-shadow: 1px 1px #ccc;
+
+}
+
+
+.col-centered {
+  float: none;
+  margin: 40px -66px 0px 66px;
+
+}
+
+// Phone Size
+
+
+@media screen and (max-width: 480px) {
+ .col-centered, .firstmember, .secondmember, .thirdmember {
+  float: none;
+  margin: 0 auto !important;
+  margin-top: 10px !important;
+  text-align: center;
+}
+.staff {
+  height: 1200px !important;
+  background-color:white;
+}
+.member {
+  border-bottom-width: 1px !important;
+}
+}
+
+.staff {
+  height: 700px;
+  background-color:white;
+  margin: auto; max-width: 300px;
+}
+
+.member {
+  border-bottom: 1px solid #a5b8df;
+}
