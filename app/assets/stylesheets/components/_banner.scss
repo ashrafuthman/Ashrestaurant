@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   background:
-   url('https://scontent.fhfa4-1.fna.fbcdn.net/v/t31.0-8/19467843_503482659987424_6896521262027472527_o.jpg?_nc_cat=0&oh=9e07b246dbbbfd0d0f5d5705dab8bec8&oe=5BDE4A63') no-repeat center center fixed;
+   url('minabanner.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,3 +25,10 @@
   color: white;
 }
 
+@media screen and (max-width: 480px) {
+  .banner {
+    background:
+   url('mina480.png') no-repeat center center fixed !important;
+
+  }
+}

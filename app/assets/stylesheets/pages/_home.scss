@@ -18,37 +18,33 @@
 }
 
 
+
 .firstmember {
- background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTLdH1utcgFaLSoFuaNY9pUs0TePYZTqhs91YDUmxG9bn0O-YmLA');
+ background-image: url('https://media.bizj.us/view/img/10532914/gordon-ramsay*750xx3840-5120-0-0.jpg');
  border-radius: 50%;
  height: 250px;
  width: 250px;
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   border: 1px solid #a5b8df;
   box-shadow: 1px 1px #ccc;
 }
 
 .secondmember {
- background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTLdH1utcgFaLSoFuaNY9pUs0TePYZTqhs91YDUmxG9bn0O-YmLA');
+ background: url('https://chicagotonight.wttw.com/sites/default/files/field/image/Trotter_0.jpg');
  border-radius: 50%;
  height: 250px;
  width: 250px;
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   border: 1px solid #a5b8df;
   box-shadow: 1px 1px #ccc;
 }
 
 .thirdmember {
- background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTLdH1utcgFaLSoFuaNY9pUs0TePYZTqhs91YDUmxG9bn0O-YmLA');
+ background: url('http://cdn.worldredeye.com/wp-content/uploads/2018/02/23/2-9-emeril-lagasse.jpg');
  border-radius: 50%;
  height: 250px;
  width: 250px;
+ background-size: cover;
  border: 1px solid #a5b8df;
  box-shadow: 1px 1px #ccc;
 
@@ -176,10 +172,10 @@ slide:nth-child(4) {
 }
 
 // Menu
-@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic);
 
-.menu h3 {
-  font-family: 'Crimson Text', serif;
+.menu h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 }
 
