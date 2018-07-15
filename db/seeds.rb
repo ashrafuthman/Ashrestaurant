@@ -23,8 +23,8 @@ Dish.create(name: 'Garden salad', price: 20, category: 'Salad')
 # Meat
 
 Dish.create(name: 'Mina Kebab', price: 70, category: 'Meat')
-Dish.create(name: 'Grilled Lamp', price: 90, category: 'Meat')
-Dish.create(name: 'Beef Fillet', price: 110, category: 'Meat')
+Dish.create(name: 'Grilled Lamp chops', price: 90, category: 'Meat')
+Dish.create(name: 'Beef Fillet', price: 110, category: 'Meat', category: '(with sauce for choice) Mushroom / pepper / mustard / red wine')
 Dish.create(name: 'Chicken steak', price: 60, category: 'Meat')
 
 # Starters
@@ -36,8 +36,14 @@ Dish.create(name: 'Creamy hearts of palms with cheese', price: 50, category: 'St
 
 # Sea Fruits
 
-Dish.create(name: 'Shrimps with lemon and garlic sauce', price: 90, category: 'Starter')
-Dish.create(name: 'Crispy shrimps', price: 90, category: 'Starter')
-Dish.create(name: 'Mix sea fruits', price: 95, category: 'Starter')
-Dish.create(name: 'Seafood Risotto', price: 80, category: 'Starter')
+Dish.create(name: 'Shrimps with lemon and garlic sauce', price: 90, category: 'Sea fruits')
+Dish.create(name: 'Crispy shrimps', price: 90, category: 'Sea fruits')
+Dish.create(name: 'Mix sea fruits', price: 95, category: 'Sea fruits', category: 'With lemon / garlic cream and saffron')
+Dish.create(name: 'Seafood Risotto', price: 80, category: 'Sea fruits')
 
+# Fish
+
+Dish.create(name: 'Sea cream fish', price: 85, category: 'Fish')
+Dish.create(name: 'Salmon fillet with lemon garlic sauce', price: 50, category: 'Fish')
+Dish.create(name: 'Barramundi fillet stuffed with', price: 50, category: 'Fish', description: 'Walnuts / gapes / blue cheese / basil / With white and lemon sauce')
+Dish.create(name: 'Amanetto Barramundi fillet', price: 50, category: 'Fish', description: 'With almonds cream and amanetto sauce')
