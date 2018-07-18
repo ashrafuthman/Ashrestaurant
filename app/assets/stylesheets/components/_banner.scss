@@ -27,8 +27,11 @@
 
 @media screen and (max-width: 480px) {
   .banner {
+    background-position: center;
     background:
-   url('mina480.png') no-repeat center center fixed !important;
+   url('https://scontent.fhfa4-1.fna.fbcdn.net/v/t1.0-9/12036740_182956155373411_6588166357748076107_n.jpg?_nc_cat=0&oh=1b5025494d3e8f66c2a141f06165a43d&oe=5BD4E7C9');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 
   }
 }

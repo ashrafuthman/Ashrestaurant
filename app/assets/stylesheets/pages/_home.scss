@@ -1,12 +1,67 @@
 // Specific CSS for your home-page
 .menu-pic {
-  height: 75vh;
+  height: 40vh;
   background: url('https://images.unsplash.com/photo-1486419952281-2b1734713e54?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5eebebb81804968642f9dc2b81980862&auto=format&fit=crop&w=1951&q=80');
       background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.menu-appe {
+  height: 40vh;
+  background: url('https://img.sndimg.com/food/image/upload/w_896,h_504,c_fill,fl_progressive,q_80/v1/img/recipes/49/23/57/lipp6StZT42zha18Tajg_isreali-hummus-1003.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-pic-2 {
+  height: 40vh;
+  background: url('http://www.chichilicious.com/wp-content/uploads/fattoush-salad-recipe.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-pic-3 {
+  height: 40vh;
+  background: url('https://www.thespruceeats.com/thmb/UHGg11h3jMAK2wp8KNSfXXQkAB4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/stuffed-mushrooms-sausage-12-2012-5877a7335f9b584db3435285.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-pic-4 {
+  height: 40vh;
+  background: url('https://wonderopolis.org/wp-content/uploads/2017/01/Cook_Meatdreamstime_xxl_52101227.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.menu-pic-5 {
+  height: 40vh;
+  background: url('https://static01.nyt.com/images/2015/04/03/multimedia/clark-oven-salmon/clark-oven-salmon-superJumbo-v2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-pic-6 {
+  height: 40vh;
+  background: url('http://www.infocatalonia.eu/w/wp-content/uploads/2013/12/fruits-of-the-sea-1024x768.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .menu-logo {
   background: url('Menu.jpg');
   width: 150px;
@@ -24,12 +79,13 @@
 
 .logo-menu {
   background: white;
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
 }
 
 .menu {
   background: white;
+  max-height: 2000px;
 }
 
 .firstmember {
@@ -65,9 +121,40 @@
 
 
 .member {
-  margin: 150px -56px 0px 56px
+  margin: 150px -56px 0px 56px;
 
 }
+
+.staff-info {
+ margin-right: 115px !important;
+}
+
+.firstmember p, .secondmember p, .thirdmember p {
+  overflow: auto;
+  max-width: 50px
+}
+
+hr.style-eight {
+  overflow: visible;
+  padding: 0; border: none;
+  border-top: medium double #a5b8df;
+  text-align: center;
+  max-width: 330px;
+  color: white;
+  margin-right: 20px;
+}
+
+hr.style-eight:after {
+  color: red;
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+  color: #d90025;
+   }
 
 // Phone Size
 
@@ -75,12 +162,24 @@
  .member, .firstmember, .secondmember, .thirdmember {
   float: none;
   margin: 0 auto !important;
-  margin-top: 70px !important;
+  margin-top: 60px !important;
   text-align: center;
 }
 .staff {
   height: 1500px !important;
-  background-color:white;
+  background-color: white;
+}
+
+}
+
+
+.staff-info {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1100px) {
+.staff-info {
+  margin: 0 auto !important;
 }
 }
 
@@ -91,13 +190,16 @@
   margin-top: 10px !important;
   text-align: center;
 }
+
 .staff {
   height: 1200px !important;
   background-color:white;
 }
+
 .member {
   border-bottom-width: 1px solid #a5b8df !important;
 }
+
 }
 
 .staff {
@@ -105,9 +207,6 @@
   background-color: white;
 }
 
-.member {
-  border-bottom: 1px solid #a5b8df;
-}
 
 .member p {
   color: #d90025;
@@ -186,7 +285,7 @@ slide:nth-child(4) {
 
 // Menu
 
-.menu h1 {
+.menu h1, h2 {
   font-family: 'Lobster', cursive;
   font-size: 50px;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
@@ -200,3 +299,45 @@ slide:nth-child(4) {
 #map {
   height: 100vh;
 }
+
+.menu-lin {
+  border-bottom: 1px solid #a5b8df !important;
+}
+
+hr.style-seven {
+  overflow: visible;
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0; border-radius: 20px;
+}
+
+hr.style-seven:before {
+  display: block; content: "";
+  height: 30px; margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+  }
+
+
+.dish {
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.price p {
+  font-size: 22px;
+}
+
+.menu h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
