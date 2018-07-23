@@ -1,7 +1,5 @@
 .footer {
   background: #F4F4F4;
-
-
   height: 400px;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
@@ -18,8 +16,8 @@
  margin-left: 60px;
 }
 
-table {
-  margin-right: -1000px !important;
+.table {
+  margin-left: 285px !important;
 }
 
 }
@@ -53,8 +51,8 @@ table {
  margin: 0 auto;
 }
 
-table {
-  margin: 0 auto;
+.table {
+  margin-left: 60px !important;
 }
 
 }
@@ -95,9 +93,10 @@ table {
   text-align: center;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 
-table {
-  margin-left: 100px !important;
+.table {
+  margin-left: 100px;
 }
