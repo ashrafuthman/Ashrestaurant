@@ -1,0 +1,51 @@
+<div class="menu">
+  <div class="members">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12 ">
+          <div class="text-center ">
+            <h2>Sea Fruits</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <% @seafruits.each do |seafruit|%>
+
+          <% if seafruit.description.nil? %>
+
+            <div class="col-xs-12 col-sm-6 menu-line dish">
+              <div class="title">
+                <h3><%= seafruit.name %></h3>
+              </div>
+              <div class="price">
+                <p><%= seafruit.price %> ₪</p>
+              </div>
+              <br>
+              <hr class="style-seven">
+            </div>
+
+          <% else %>
+
+            <div class="col-xs-12 col-sm-6 menu-line menu">
+              <div class="title">
+                <h3><%= seafruit.name %></h3>
+              </div>
+              <div class="des">
+                <p><%= seafruit.description %></p>
+              </div>
+              <div class="price">
+                <p><%= seafruit.price %> ₪</p>
+              </div>
+              <hr class="style-seven">
+            </div>
+
+          <% end %>
+
+        <% end %>
+      </div> 
+      
+    </div>
+  </div>
+</div>
